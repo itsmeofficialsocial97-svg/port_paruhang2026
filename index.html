@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Multilingual">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text" data-i18n="portfolio">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-i18n="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-i18n="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-i18n="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-i18n="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-i18n="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-i18n="heroTitle">Welcome to My Portfolio</h1>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">Professional Developer & Designer</p>
+                <a href="#projects" class="cta-button" data-i18n="viewProjects">View My Projects</a>
+            </div>
+            <div class="hero-image">
+                <img src="paruhang.jpeg" alt="Profile" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="aboutTitle">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="paruhang1.jpeg" alt="About" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <p class="about-description" data-i18n="aboutDescription">
+                        I'm a passionate developer with several years of experience creating beautiful and functional websites and applications. I specialize in modern web technologies and user-centered design.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label" data-i18n="experience">Experience</span>
+                            <p>1+ Month</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label" data-i18n="projectsCompleted">Projects Completed</span>
+                            <p>5+</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label" data-i18n="clientsSatisfied">Clients Satisfied</span>
+                            <p>3+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skillsTitle">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 data-i18n="">HTML</h3>
+                    
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 data-i18n="">CSS</h3>
+                    
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3 data-i18n="Design">Design</h3>
+                    <p>Figma, Adobe XD, User Research</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3 data-i18n="responsiveDesign">Responsive Design</h3>
+                    <p>Mobile-First, Cross-browser</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3 data-i18n="performance">Performance Optimization</h3>
+                    <p>Loading Speed, Caching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projectsTitle">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="profilo.jpeg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio</h3>
+                        <p>I am a motivated and curious student with a strong interest in learning new skills, especially in technology and creativity. I enjoy working on projects, exploring new ideas, and improving my knowledge every day. I am dedicated, hardworking, and always ready to take on new challenges.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+    
+
+              
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contactTitle">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" data-i18n-placeholder="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" data-i18n-placeholder="email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" data-i18n-placeholder="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-i18n="sendMessage">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="label" data-i18n="email">Email</span>
+                        <p>itsmeofficialsocial97@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="label" data-i18n="phone">Phone</span>
+                        <p>97xxxxxxxx</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="label" data-i18n="location">Kathmandu Valley</span>
+                        <p> KTM City, Nepal</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/paruhang-rai-41967b399?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/itsmeofficialsocial97-svg" class="social-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text" data-i18n="footerText">© 2024 Professional Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
